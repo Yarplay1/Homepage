@@ -1,0 +1,56 @@
+:root{
+    --frontpage-color: black;
+    --text-color: white;
+    --accent-text-color: gold;
+}
+
+.frontpage {
+    background-color: var(--frontpage-color);
+    border-radius: 3vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+}
+
+.frontpage-block {
+    height: 48%;
+    width: 48%;
+    border-radius: 2vw;
+    
+}
+
+.frontpage-block *{
+    margin: 0 auto;
+}
+
+.page {
+    height: 100vh;
+    width: 100vw;
+}
+
+.body {
+    color: var(--text-color);
+}
+
+.center {
+    margin: 0 auto;
+    padding: 5%;
+    
+}
+
+.accent {
+    color: var(--accent-text-color);
+}
+
+.frontpage-cat {
+    border-radius: 3vw;
+    height: 100%;
+}
+
+.house-canvas {
+    width: 150%;
+}
+
+.margin-house-display {
+    margin: 3vw;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel = "stylesheet" href = "main.css">
+
+</head>
+<body class = "body">
+    <nav class = "nav">
+        <div class = "icon">
+            <img src = "images/icon.png">
+        </div>
+        <div class = "main-nav">
+            <a href = #about>About</a>
+            <a href = "projects.html"></a>
+        </div>
+    </nav>
+
+    <section class = "frontpage page">
+        <div class = "frontpage-main-text frontpage-block">
+            <div class = "center">
+                <h1>My projects</h1>
+                <h3 class = "accent">PT-Mainframe</h3>
+                <p>My moderation bot that was primarily made as a tool to counter the wave of scams that has been running on Discord at the time. The bot has since been extended to defend againist raids, server nukes and given modules that help pass it off as an entertainment bot</p>
+                <div class = "frontpage">
+                    <!-- Removed due to poor integration
+                    <img src = "images/8ball.jpg" class = "frontpage-cat">
+                    <img src = "images/sniper.jpg" class = "frontpage-cat">
+                    -->
+                </div>
+            </div>
+        </div>
+        <div class = "center ">
+            <img src = "images/thermonuclear.jpg" class = frontpage-cat>
+        </div>
+    </section>
+    <section class = "frontpage page">
+        <div class = "frontpage-block margin-house-display">
+            <h3 class = "accent"> Not really a project, but still</h3>
+            <p>This is my attempt at learning BabylonJS, and I decided to make a grid of houses as a first try</p>
+            <canvas id="render-canvas" class = "house-canvas"></canvas>
+            <script src="https://cdn.babylonjs.com/babylon.js"></script>
+            <script src = "houses.js"></script>
+        </div>
+    </section>
+    <section class = "frontpage page">
+        <div class = "frontpage-block margin-house-display">
+            <h3 class = "accent"> A small three body animation</h3>
+            <p>While this isn't truly orbital simulation, it's my first 3d project in js. I used fake orbital physics for movement</p>
+            <div class = "canvas-wrapper"></div>
+            <script src="https://dir.by/example_lib/tree_js/three.js"></script>
+            <script src="https://dir.by/example_lib/tree_js/OrbitControls.js"></script>
+            <script src="https://dir.by/example_lib/tree_js/CSS2DRenderer.js"></script>
+            <script src="threebody.js"></script>
+        </div>
+    </section>
+</body>
+</html>
